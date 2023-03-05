@@ -1,0 +1,13 @@
+.base li,
+.toppings li {
+  cursor: pointer;
+}
+.base li:hover {
+  color: red;
+}
+.toppings li:hover {
+  color: lime;
+}
+.toppings li.selected {
+  color: red;
+}
